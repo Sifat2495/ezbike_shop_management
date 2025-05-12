@@ -1,4 +1,4 @@
-# 📱 ezbike shop management app
+# 📱 EZbike Shop Management App
 
 A simple Flutter application integrated with Firebase, targeting Android devices only.
 
@@ -9,6 +9,8 @@ A simple Flutter application integrated with Firebase, targeting Android devices
 - Firestore Database integration
 - Android-only setup
 - Clean architecture
+- Real time notification
+- SMS alert for transactions
 - Null safety enabled
 ---
 
