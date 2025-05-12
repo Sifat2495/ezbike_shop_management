@@ -1,0 +1,44 @@
+plugins {
+    id "com.android.application"
+    
+    id 'com.google.gms.google-services'
+    
+    id "kotlin-android"
+    
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.hesoftwaresolution.bebshar_poristhiti_stock"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.hesoftwaresolution.bebshar_poristhiti_stock"
+        minSdkVersion 23
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            
+            
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

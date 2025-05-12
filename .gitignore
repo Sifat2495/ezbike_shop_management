@@ -1,0 +1,18 @@
+# Firebase config
+android/app/google-services.json
+
+# Build and dependency folders
+build/
+.dart_tool/
+.packages
+.pub/
+
+# IDE folders
+.idea/
+*.iml
+android/.gradle/
+android/local.properties
+
+# Plugin & dependency info
+.flutter-plugins
+.flutter-plugins-dependencies
