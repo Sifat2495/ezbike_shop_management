@@ -49,8 +49,8 @@ A simple Flutter application integrated with Firebase, targeting Android devices
 ### 📦 Installation
 
 1. **Clone the repo**:
-     git clone https://github.com/Sifat2495/flutter-firebase-android.git
-     cd flutter-firebase-android
+     git clone https://github.com/Sifat2495/ezbike_shop_management.git
+     cd ezbike_shop_management
    
    **Install dependencies**:
      flutter pub get
