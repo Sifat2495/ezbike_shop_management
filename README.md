@@ -49,7 +49,7 @@ A simple Flutter application integrated with Firebase, targeting Android devices
 ### 📦 Installation
 
 1. **Clone the repo**:
-     git clone https://github.com/your-username/flutter-firebase-android.git
+     git clone https://github.com/Sifat2495/flutter-firebase-android.git
      cd flutter-firebase-android
    
    **Install dependencies**:
