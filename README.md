@@ -59,7 +59,10 @@ A simple Flutter application integrated with Firebase, targeting Android devices
      - Register your Android app using your app's package name
      - Download the google-services.json file
      - Place it in: android/app/google-services.json
-       
+
+   **IMPORTANT**
+     - Change Collection, Document and Field names of firebase for full functionality. 
+
     **Run the app**:
      - flutter run
        
